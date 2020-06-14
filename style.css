@@ -32,6 +32,22 @@ background-image: url(https://img.freepik.com/free-photo/close-up-blank-old-conc
     border-bottom: 1px solid black;
 }
 
+.about-me {
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+#my-pic {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapped {
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 @media screen and (max-width: 557px) 
 {
 
