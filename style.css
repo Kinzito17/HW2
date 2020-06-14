@@ -6,86 +6,35 @@ body {
 background-image: url(https://img.freepik.com/free-photo/close-up-blank-old-concrete-wall_23-2147856094.jpg?size=626&ext=jpg);
 }
 
-/*
-  The width of the wrapper will be 1024px
-  at browser widths above 768px
-*/
-.wrapper {
-    width: 1024px;
+.navbar {
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 #logo {
     font-size: 36px;
-    padding: 30px;
+    padding: 20px;
     background-color: teal;
     color: white;
+    margin-left: 20px;
 }
 
-.col-md-6 {
-    border: none;
-}
-.card {
-    display: flex;
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 640px;
+.container {
+    background-color: white;
 }
 
-.card-body {
-    
+.form-header {
+    color: teal;
+    padding-left: 7px;
+    font-size: 36px;
 }
 
-.card-title {
-    border-bottom: 1px solid black;
+@media screen and (max-width: 557px) 
+{
+
+.navbar {
+    justify-content: center;
 }
-
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-*/
-@media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color: #333;
-      margin: 0 auto;
-    }
-  
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 100%;
-      padding: 20px;
-    }
-
-
-
-    .card {
-        display: flex;
-        width: 728px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
 
 }
 
-@media screen and (max-width: 640px) {
-
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .card {
-        display: flex;
-        width: 600px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-
-    #logo {
-        display: flex;
-        justify-content: center;
-    }
-
-}
