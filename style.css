@@ -20,13 +20,16 @@ background-image: url(https://img.freepik.com/free-photo/close-up-blank-old-conc
 }
 
 .container {
+    float: left;
     background-color: white;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 .form-header {
     color: teal;
-    padding-left: 7px;
     font-size: 36px;
+    border-bottom: 1px solid black;
 }
 
 @media screen and (max-width: 557px) 
@@ -37,4 +40,3 @@ background-image: url(https://img.freepik.com/free-photo/close-up-blank-old-conc
 }
 
 }
-
