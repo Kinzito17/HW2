@@ -5,46 +5,56 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>About Matthew Kinzle</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <header>
+    <header class="site-header">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="header-content">
 
-            <a class="nav justify-content-start" id="logo" href="index.html">Matthew Kinzle</a>
+            <a class="name-logo " id="logo" href="index.html">Matthew Kinzle</a>
 
-            <div class="navbar" id="mynav">
+            <div class="header-links">
 
-                <ul class="nav justify-content-end">
+                <a class="header-link" href="index.html">About</a>
+                <a class="header-link" href="portfolio.html">Portfolio</a>
+                <a class="header-link" href="contact.html">Contact</a>
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
+                    <button class="btn btn-secondary dropdown-toggle social-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Social
+                    </button>
 
-                    <li class="nav-item active" style="border-left: 1px solid rgb(179, 173, 173);">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-
-                    <li class="nav-item active" style="border-left: 1px solid rgb(179, 173, 173);">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a type="button" href="https://github.com/Kinzito17/" class="fa fa-github social-drop dropdown-item" target="_blank"></a>
+                      <a type="button" href="https://www.linkedin.com/in/matthew-kinzle-3aa07568/" class="fa fa-linkedin social-drop dropdown-item" target="_blank"></a>
+                      <a type="button" href="https://www.instagram.com/kinzito/" class="fa fa-instagram social-drop dropdown-item" target="_blank"></a>
+                    </div>
 
             </div>
 
-        </nav>
+        </div>
 
     </header>
 
-    <div class="container" id="portfolio">
+    <footer>
+
+        <a href="https://github.com/Kinzito17/" class="fa fa-github text-muted" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/matthew-kinzle-3aa07568/" class="fa fa-linkedin text-muted" target="_blank"></a>
+        <a href="https://www.instagram.com/kinzito/" class="fa fa-instagram text-muted" target="_blank"></a>
+
+        <span class="text-muted">&copy</span>
+
+    </footer>
+
+    <!-- <div class="container" id="portfolio">
 
         <h2 class="form-header">Portfolio</h2>
 
@@ -95,7 +105,12 @@
 
         <span class="text-muted">&copy Copyright</span>
 
-    </footer>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 
 </body>
 
