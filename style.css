@@ -147,7 +147,7 @@ footer {
   }
 
   .contact-header {
-      font-size: 28px;
+      font-size: 32px;
   }
 
   .form-label{
@@ -175,7 +175,21 @@ footer {
       margin-bottom: 35px;
   }
  
+  .contact-subheader {
+    font-size: 22px;
+  }
 
+  .port-btn {
+    margin-bottom: 35px;
+    margin-left: 35px;
+    color: #8D99AE;
+    font-size: 20px;
+  }
+
+  .port-btn:hover {
+    color: white;
+    text-decoration: none;
+  }
 
 
 
