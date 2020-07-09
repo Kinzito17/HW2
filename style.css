@@ -78,7 +78,7 @@ footer {
       background: transparent;
       border: none;
       color: #8D99AE;
-      font-size: 18px;
+      font-size: 20px;
 
   }
 
@@ -214,6 +214,15 @@ footer {
     text-decoration: none;
   }
   
+  .contact-btn {
+      color: #8D99AE;
+      margin-top: 10px;
+      font-size: 20px;
+  }
+
+  .contact-btn:hover {
+      color: white;
+  }
 
 
 
