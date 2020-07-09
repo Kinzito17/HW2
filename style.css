@@ -56,6 +56,10 @@ footer {
     color: #8D99AE;
 }
 
+.contact-footer {
+    position: fixed;
+}
+
 .fa {
     font-size: 20px;
     width: 30px;
@@ -191,6 +195,19 @@ footer {
     text-decoration: none;
   }
 
+  .portfolio-container{
+      justify-content: space-evenly;
+  }
+
+  .port-col{
+      text-align: center;
+      margin-bottom: 35px;
+  }
+
+  .port-pics {
+      height: 200px;
+  }
+  
 
 
 
