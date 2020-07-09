@@ -88,26 +88,13 @@ footer {
       text-decoration: none;
   }
 
-  .show>.btn-secondary.dropdown-toggle {
-    background: transparent;
-    border: none;
-    color: #8D99AE;
-  }
-
-  .btn-secondary:focus {
-    background: transparent;
-    border: none;
-    color: #8D99AE;
-  }
-
   .btn:focus {
       outline: transparent;
   }
 
-  .show>.btn-secondary.dropdown-toggle:focus {
+  .btn.focus, .btn:focus {
     box-shadow: none;
   }
-
 
   .social-drop {
     color: #8D99AE;
