@@ -207,6 +207,25 @@ footer {
   .port-pics {
       height: 200px;
   }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .portfolio-btn {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .portfolio-btn:hover {
+    color: black;
+    text-decoration: none;
+  }
   
 
 
