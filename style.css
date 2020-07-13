@@ -192,7 +192,7 @@ footer {
   }
 
   .port-pics {
-      height: 200px;
+      height: 250px;
   }
 
   .centered {
@@ -224,6 +224,10 @@ footer {
       color: white;
   }
 
+  .port-header {
+    color: #8D99AE;
+    font-size: 20px;
+  }
 
 
 
