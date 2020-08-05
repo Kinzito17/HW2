@@ -238,7 +238,15 @@ footer {
     font-size: 20px;
   }
 
+  @media (max-width: 991px) {
 
+    .resumePic {
+        height: 776px;
+        width: 600px;
+    }
+      
+    }
+    
 
 
 
